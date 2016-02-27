@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80398541C8012A000E4AD07 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398531C8012A000E4AD07 /* CustomTextField.m */; };
+		A80398571C801FEE00E4AD07 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398561C801FEE00E4AD07 /* CustomTableViewCell.m */; };
+		A803985A1C8026B900E4AD07 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398591C8026B900E4AD07 /* CustomPickerView.m */; };
+		A82915771C5911FF005D4723 /* DbContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A82915761C5911FF005D4723 /* DbContent.m */; };
+		A82915801C59311D005D4723 /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A829157F1C59311D005D4723 /* AddCustomerViewController.m */; };
+		A829A96C1C554957004DABBB /* ConsumableProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A96B1C554957004DABBB /* ConsumableProduct.m */; };
+		A829A96F1C554978004DABBB /* RentableProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A96E1C554978004DABBB /* RentableProduct.m */; };
+		A829A9721C554A4A004DABBB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9711C554A4A004DABBB /* Product.m */; };
+		A829A9751C554E15004DABBB /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9741C554E15004DABBB /* Entity.m */; };
+		A829A9791C5550D7004DABBB /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9781C5550D7004DABBB /* Customer.m */; };
+		A829A97C1C5555F1004DABBB /* Rent.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A97B1C5555F1004DABBB /* Rent.m */; };
+		A829A97F1C555861004DABBB /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A97E1C555861004DABBB /* Transaction.m */; };
+		A829A9821C5558E3004DABBB /* Selling.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9811C5558E3004DABBB /* Selling.m */; };
+		A82E22C71C74BAA900280C62 /* EditProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82E22C61C74BAA900280C62 /* EditProductViewController.m */; };
+		A853128C1C5D2A55007C6DBD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128B1C5D2A55007C6DBD /* BaseViewController.m */; };
+		A85312901C5D3B30007C6DBD /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128F1C5D3B30007C6DBD /* CustomLabel.m */; };
+		A86F097A1C63AB2B000E4BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F09791C63AB2B000E4BDC /* ViewController.m */; };
+		A86F097D1C63AC37000E4BDC /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F097C1C63AC37000E4BDC /* ProductsViewController.m */; };
+		A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8949A361C5E292100141235 /* EditCustomerViewController.m */; };
+		A896A8CA1C6A716F00D5CAF8 /* ProductsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */; };
+		A8C0FDBB1C5F968000CB7C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */; };
+		A8C0FDBE1C5FCD5900CB7C72 /* CustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */; };
+		A8F98AC01C54260800D715C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98ABF1C54260800D715C3 /* main.m */; };
+		A8F98AC31C54260800D715C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AC21C54260800D715C3 /* AppDelegate.m */; };
+		A8F98ACB1C54260900D715C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F98ACA1C54260900D715C3 /* Assets.xcassets */; };
+		A8F98ACE1C54260900D715C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F98ACC1C54260900D715C3 /* LaunchScreen.storyboard */; };
+		A8F98AD91C54260900D715C3 /* VideoClub.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AD81C54260900D715C3 /* VideoClub.m */; };
+		A8F98AE41C54260900D715C3 /* VideoClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AE31C54260900D715C3 /* VideoClubUITests.m */; };
+		A8F98AF31C54300200D715C3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AF21C54300200D715C3 /* Person.m */; };
+		A8F9DD261C64FEC90075C299 /* AddProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9DD251C64FEC90075C299 /* AddProductViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F98AD51C54260900D715C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F98AB31C54260800D715C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F98ABA1C54260800D715C3;
+			remoteInfo = OnceMore;
+		};
+		A8F98AE01C54260900D715C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F98AB31C54260800D715C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F98ABA1C54260800D715C3;
+			remoteInfo = OnceMore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80398521C8012A000E4AD07 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		A80398531C8012A000E4AD07 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		A80398551C801FEE00E4AD07 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		A80398561C801FEE00E4AD07 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		A80398581C8026B900E4AD07 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		A80398591C8026B900E4AD07 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
+		A82915751C5911FF005D4723 /* DbContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbContent.h; sourceTree = "<group>"; };
+		A82915761C5911FF005D4723 /* DbContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbContent.m; sourceTree = "<group>"; };
+		A829157F1C59311D005D4723 /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddCustomerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A829A96A1C554957004DABBB /* ConsumableProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumableProduct.h; sourceTree = "<group>"; };
+		A829A96B1C554957004DABBB /* ConsumableProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumableProduct.m; sourceTree = "<group>"; };
+		A829A96D1C554978004DABBB /* RentableProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentableProduct.h; sourceTree = "<group>"; };
+		A829A96E1C554978004DABBB /* RentableProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentableProduct.m; sourceTree = "<group>"; };
+		A829A9711C554A4A004DABBB /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		A829A9731C554E15004DABBB /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		A829A9741C554E15004DABBB /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		A829A9771C5550D7004DABBB /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		A829A9781C5550D7004DABBB /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		A829A97A1C5555F1004DABBB /* Rent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rent.h; sourceTree = "<group>"; };
+		A829A97B1C5555F1004DABBB /* Rent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rent.m; sourceTree = "<group>"; };
+		A829A97D1C555861004DABBB /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		A829A97E1C555861004DABBB /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		A829A9801C5558E3004DABBB /* Selling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selling.h; sourceTree = "<group>"; };
+		A829A9811C5558E3004DABBB /* Selling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selling.m; sourceTree = "<group>"; };
+		A82E22C51C74BAA900280C62 /* EditProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductViewController.h; sourceTree = "<group>"; };
+		A82E22C61C74BAA900280C62 /* EditProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductViewController.m; sourceTree = "<group>"; };
+		A85312871C5D26E5007C6DBD /* AddCustomerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
+		A853128A1C5D2A55007C6DBD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BaseViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A853128B1C5D2A55007C6DBD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A853128E1C5D3B30007C6DBD /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		A853128F1C5D3B30007C6DBD /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		A86F09781C63AB2B000E4BDC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A86F09791C63AB2B000E4BDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A86F097B1C63AC37000E4BDC /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		A86F097C1C63AC37000E4BDC /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		A8949A351C5E292100141235 /* EditCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditCustomerViewController.h; path = ../EditCustomerViewController.h; sourceTree = "<group>"; };
+		A8949A361C5E292100141235 /* EditCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditCustomerViewController.m; path = ../EditCustomerViewController.m; sourceTree = "<group>"; };
+		A896A8C81C6A716F00D5CAF8 /* ProductsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsMainViewController.h; sourceTree = "<group>"; };
+		A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsMainViewController.m; sourceTree = "<group>"; };
+		A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A8C0FDBC1C5FCD4D00CB7C72 /* CustomersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomersViewController.h; sourceTree = "<group>"; };
+		A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersViewController.m; sourceTree = "<group>"; };
+		A8F98ABB1C54260800D715C3 /* VideoClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F98ABF1C54260800D715C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8F98AC11C54260800D715C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8F98AC21C54260800D715C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8F98ACA1C54260900D715C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F98ACD1C54260900D715C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F98ACF1C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F98AD41C54260900D715C3 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F98AD81C54260900D715C3 /* VideoClub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoClub.m; sourceTree = "<group>"; };
+		A8F98ADA1C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F98ADF1C54260900D715C3 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F98AE31C54260900D715C3 /* VideoClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoClubUITests.m; sourceTree = "<group>"; };
+		A8F98AE51C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F98AF11C54300200D715C3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A8F98AF21C54300200D715C3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A8F9DD241C64FEC90075C299 /* AddProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProductViewController.h; sourceTree = "<group>"; };
+		A8F9DD251C64FEC90075C299 /* AddProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProductViewController.m; sourceTree = "<group>"; };
+		A8FAFB0C1C6899700097FE31 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F98AB81C54260800D715C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98AD11C54260900D715C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98ADC1C54260900D715C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A829A9761C554F65004DABBB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A82915751C5911FF005D4723 /* DbContent.h */,
+				A82915761C5911FF005D4723 /* DbContent.m */,
+				A8F98AF11C54300200D715C3 /* Person.h */,
+				A8F98AF21C54300200D715C3 /* Person.m */,
+				A8FAFB0C1C6899700097FE31 /* Product.h */,
+				A829A9711C554A4A004DABBB /* Product.m */,
+				A829A9731C554E15004DABBB /* Entity.h */,
+				A829A9741C554E15004DABBB /* Entity.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A85312881C5D2A08007C6DBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A85312891C5D2A2C007C6DBD /* Base */,
+				A86F09781C63AB2B000E4BDC /* ViewController.h */,
+				A86F09791C63AB2B000E4BDC /* ViewController.m */,
+				A8A619EC1C71C70A0022C2BB /* Customers */,
+				A829A97A1C5555F1004DABBB /* Rent.h */,
+				A8C23DDF1C7900F200EC9A6D /* Products */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A85312891C5D2A2C007C6DBD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A853128A1C5D2A55007C6DBD /* BaseViewController.h */,
+				A853128B1C5D2A55007C6DBD /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A853128D1C5D3AB5007C6DBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A80398521C8012A000E4AD07 /* CustomTextField.h */,
+				A80398531C8012A000E4AD07 /* CustomTextField.m */,
+				A853128E1C5D3B30007C6DBD /* CustomLabel.h */,
+				A853128F1C5D3B30007C6DBD /* CustomLabel.m */,
+				A80398551C801FEE00E4AD07 /* CustomTableViewCell.h */,
+				A80398561C801FEE00E4AD07 /* CustomTableViewCell.m */,
+				A80398581C8026B900E4AD07 /* CustomPickerView.h */,
+				A80398591C8026B900E4AD07 /* CustomPickerView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A8A619EC1C71C70A0022C2BB /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0FDBC1C5FCD4D00CB7C72 /* CustomersViewController.h */,
+				A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */,
+				A85312871C5D26E5007C6DBD /* AddCustomerViewController.h */,
+				A829157F1C59311D005D4723 /* AddCustomerViewController.m */,
+				A8949A351C5E292100141235 /* EditCustomerViewController.h */,
+				A8949A361C5E292100141235 /* EditCustomerViewController.m */,
+			);
+			name = Customers;
+			sourceTree = "<group>";
+		};
+		A8C23DDF1C7900F200EC9A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A86F097B1C63AC37000E4BDC /* ProductsViewController.h */,
+				A86F097C1C63AC37000E4BDC /* ProductsViewController.m */,
+				A8F9DD241C64FEC90075C299 /* AddProductViewController.h */,
+				A8F9DD251C64FEC90075C299 /* AddProductViewController.m */,
+				A896A8C81C6A716F00D5CAF8 /* ProductsMainViewController.h */,
+				A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */,
+				A82E22C51C74BAA900280C62 /* EditProductViewController.h */,
+				A82E22C61C74BAA900280C62 /* EditProductViewController.m */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F98AB21C54260800D715C3 = {
+			isa = PBXGroup;
+			children = (
+				A8F98ABD1C54260800D715C3 /* VideoClub */,
+				A8F98AD71C54260900D715C3 /* VideoClubTests */,
+				A8F98AE21C54260900D715C3 /* VideoClubUITests */,
+				A8F98ABC1C54260800D715C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F98ABC1C54260800D715C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F98ABB1C54260800D715C3 /* VideoClub.app */,
+				A8F98AD41C54260900D715C3 /* VideoClub.xctest */,
+				A8F98ADF1C54260900D715C3 /* VideoClub.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F98ABD1C54260800D715C3 /* VideoClub */ = {
+			isa = PBXGroup;
+			children = (
+				A853128D1C5D3AB5007C6DBD /* Views */,
+				A8F98AF51C54304200D715C3 /* Models */,
+				A8F98AF61C54368D00D715C3 /* ViewModels */,
+				A85312881C5D2A08007C6DBD /* Controllers */,
+				A8F98AC11C54260800D715C3 /* AppDelegate.h */,
+				A8F98AC21C54260800D715C3 /* AppDelegate.m */,
+				A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */,
+				A8F98ACA1C54260900D715C3 /* Assets.xcassets */,
+				A8F98ACC1C54260900D715C3 /* LaunchScreen.storyboard */,
+				A8F98ACF1C54260900D715C3 /* Info.plist */,
+				A8F98ABE1C54260800D715C3 /* Supporting Files */,
+			);
+			path = VideoClub;
+			sourceTree = "<group>";
+		};
+		A8F98ABE1C54260800D715C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F98ABF1C54260800D715C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F98AD71C54260900D715C3 /* VideoClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F98AD81C54260900D715C3 /* VideoClub.m */,
+				A8F98ADA1C54260900D715C3 /* Info.plist */,
+			);
+			name = VideoClubTests;
+			path = OnceMoreTests;
+			sourceTree = "<group>";
+		};
+		A8F98AE21C54260900D715C3 /* VideoClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F98AE31C54260900D715C3 /* VideoClubUITests.m */,
+				A8F98AE51C54260900D715C3 /* Info.plist */,
+			);
+			name = VideoClubUITests;
+			path = OnceMoreUITests;
+			sourceTree = "<group>";
+		};
+		A8F98AF51C54304200D715C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A829A9761C554F65004DABBB /* Base */,
+				A829A96A1C554957004DABBB /* ConsumableProduct.h */,
+				A829A96B1C554957004DABBB /* ConsumableProduct.m */,
+				A829A96D1C554978004DABBB /* RentableProduct.h */,
+				A829A96E1C554978004DABBB /* RentableProduct.m */,
+				A829A9771C5550D7004DABBB /* Customer.h */,
+				A829A9781C5550D7004DABBB /* Customer.m */,
+				A829A97B1C5555F1004DABBB /* Rent.m */,
+				A829A97D1C555861004DABBB /* Transaction.h */,
+				A829A97E1C555861004DABBB /* Transaction.m */,
+				A829A9801C5558E3004DABBB /* Selling.h */,
+				A829A9811C5558E3004DABBB /* Selling.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A8F98AF61C54368D00D715C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F98ABA1C54260800D715C3 /* VideoClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F98AE81C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClub" */;
+			buildPhases = (
+				A8F98AB71C54260800D715C3 /* Sources */,
+				A8F98AB81C54260800D715C3 /* Frameworks */,
+				A8F98AB91C54260800D715C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoClub;
+			productName = OnceMore;
+			productReference = A8F98ABB1C54260800D715C3 /* VideoClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F98AD31C54260900D715C3 /* VideoClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F98AEB1C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClubTests" */;
+			buildPhases = (
+				A8F98AD01C54260900D715C3 /* Sources */,
+				A8F98AD11C54260900D715C3 /* Frameworks */,
+				A8F98AD21C54260900D715C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F98AD61C54260900D715C3 /* PBXTargetDependency */,
+			);
+			name = VideoClubTests;
+			productName = OnceMoreTests;
+			productReference = A8F98AD41C54260900D715C3 /* VideoClub.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F98ADE1C54260900D715C3 /* VideoClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F98AEE1C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClubUITests" */;
+			buildPhases = (
+				A8F98ADB1C54260900D715C3 /* Sources */,
+				A8F98ADC1C54260900D715C3 /* Frameworks */,
+				A8F98ADD1C54260900D715C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F98AE11C54260900D715C3 /* PBXTargetDependency */,
+			);
+			name = VideoClubUITests;
+			productName = OnceMoreUITests;
+			productReference = A8F98ADF1C54260900D715C3 /* VideoClub.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F98AB31C54260800D715C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexandra Kouzeli";
+				TargetAttributes = {
+					A8F98ABA1C54260800D715C3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P327U85N86;
+					};
+					A8F98AD31C54260900D715C3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A8F98ABA1C54260800D715C3;
+					};
+					A8F98ADE1C54260900D715C3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A8F98ABA1C54260800D715C3;
+					};
+				};
+			};
+			buildConfigurationList = A8F98AB61C54260800D715C3 /* Build configuration list for PBXProject "VideoClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F98AB21C54260800D715C3;
+			productRefGroup = A8F98ABC1C54260800D715C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F98ABA1C54260800D715C3 /* VideoClub */,
+				A8F98AD31C54260900D715C3 /* VideoClubTests */,
+				A8F98ADE1C54260900D715C3 /* VideoClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F98AB91C54260800D715C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C0FDBB1C5F968000CB7C72 /* Main.storyboard in Resources */,
+				A8F98ACE1C54260900D715C3 /* LaunchScreen.storyboard in Resources */,
+				A8F98ACB1C54260900D715C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98AD21C54260900D715C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98ADD1C54260900D715C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F98AB71C54260800D715C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86F097A1C63AB2B000E4BDC /* ViewController.m in Sources */,
+				A8C0FDBE1C5FCD5900CB7C72 /* CustomersViewController.m in Sources */,
+				A82E22C71C74BAA900280C62 /* EditProductViewController.m in Sources */,
+				A829A97C1C5555F1004DABBB /* Rent.m in Sources */,
+				A829A9751C554E15004DABBB /* Entity.m in Sources */,
+				A803985A1C8026B900E4AD07 /* CustomPickerView.m in Sources */,
+				A829A9821C5558E3004DABBB /* Selling.m in Sources */,
+				A829A9791C5550D7004DABBB /* Customer.m in Sources */,
+				A82915771C5911FF005D4723 /* DbContent.m in Sources */,
+				A85312901C5D3B30007C6DBD /* CustomLabel.m in Sources */,
+				A829A9721C554A4A004DABBB /* Product.m in Sources */,
+				A8F98AC31C54260800D715C3 /* AppDelegate.m in Sources */,
+				A8F9DD261C64FEC90075C299 /* AddProductViewController.m in Sources */,
+				A80398541C8012A000E4AD07 /* CustomTextField.m in Sources */,
+				A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */,
+				A80398571C801FEE00E4AD07 /* CustomTableViewCell.m in Sources */,
+				A853128C1C5D2A55007C6DBD /* BaseViewController.m in Sources */,
+				A829A96F1C554978004DABBB /* RentableProduct.m in Sources */,
+				A86F097D1C63AC37000E4BDC /* ProductsViewController.m in Sources */,
+				A829A97F1C555861004DABBB /* Transaction.m in Sources */,
+				A829A96C1C554957004DABBB /* ConsumableProduct.m in Sources */,
+				A8F98AF31C54300200D715C3 /* Person.m in Sources */,
+				A8F98AC01C54260800D715C3 /* main.m in Sources */,
+				A82915801C59311D005D4723 /* AddCustomerViewController.m in Sources */,
+				A896A8CA1C6A716F00D5CAF8 /* ProductsMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98AD01C54260900D715C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F98AD91C54260900D715C3 /* VideoClub.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F98ADB1C54260900D715C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F98AE41C54260900D715C3 /* VideoClubUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F98AD61C54260900D715C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F98ABA1C54260800D715C3 /* VideoClub */;
+			targetProxy = A8F98AD51C54260900D715C3 /* PBXContainerItemProxy */;
+		};
+		A8F98AE11C54260900D715C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F98ABA1C54260800D715C3 /* VideoClub */;
+			targetProxy = A8F98AE01C54260900D715C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F98ACC1C54260900D715C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F98ACD1C54260900D715C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F98AE61C54260900D715C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F98AE71C54260900D715C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F98AE91C54260900D715C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClub;
+				PRODUCT_NAME = VideoClub;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A8F98AEA1C54260900D715C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VideoClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClub;
+				PRODUCT_NAME = VideoClub;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A8F98AEC1C54260900D715C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnceMoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreTests;
+				PRODUCT_NAME = VideoClub;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoClub.app/VideoClub";
+			};
+			name = Debug;
+		};
+		A8F98AED1C54260900D715C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnceMoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreTests;
+				PRODUCT_NAME = VideoClub;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoClub.app/VideoClub";
+			};
+			name = Release;
+		};
+		A8F98AEF1C54260900D715C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnceMoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreUITests;
+				PRODUCT_NAME = VideoClub;
+				TEST_TARGET_NAME = OnceMore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A8F98AF01C54260900D715C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnceMoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreUITests;
+				PRODUCT_NAME = VideoClub;
+				TEST_TARGET_NAME = OnceMore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F98AB61C54260800D715C3 /* Build configuration list for PBXProject "VideoClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F98AE61C54260900D715C3 /* Debug */,
+				A8F98AE71C54260900D715C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F98AE81C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F98AE91C54260900D715C3 /* Debug */,
+				A8F98AEA1C54260900D715C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F98AEB1C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F98AEC1C54260900D715C3 /* Debug */,
+				A8F98AED1C54260900D715C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F98AEE1C54260900D715C3 /* Build configuration list for PBXNativeTarget "VideoClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F98AEF1C54260900D715C3 /* Debug */,
+				A8F98AF01C54260900D715C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F98AB31C54260800D715C3 /* Project object */;
+}
