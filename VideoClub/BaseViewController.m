@@ -29,84 +29,61 @@
     return [DbContent sharedDbContent];
 }
 
-# pragma mark - Methods for validating textfields.
+# pragma mark - Methods used in form validation.
 
-// Validate a customer's name or surname.
-- (BOOL)validateNameOrSurname:(NSString *)nameOrSurname withAlertMessage:(NSString *)message {
-    NSString *letterRegEx = @"[a-zA-Z]+";
-    NSPredicate *letterTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", letterRegEx];
-    
-    if ([letterTest evaluateWithObject:nameOrSurname]) {
-        return YES;
+// Return YES, if there are any invalid fields
+- (BOOL)errorMessagesForFields:(NSArray *)allFields {
+    NSString *allErrors = [[NSString alloc] init];
+    for (CustomTextField *field in allFields) {
+        if (![field isValid]) {
+            NSString *errorForInvalidField = field.errorMessage;
+            allErrors = [allErrors stringByAppendingString:errorForInvalidField];
+        }
     }
-    
-    [self displayAlert:message];
-    return NO;
-}
-
-// Validate a customer's address.
-- (BOOL)validateAddress:(NSString *)address withAlertMessage:(NSString *)message {
-    NSString *letterAndNumberRegEx = @"[a-zA-Z0-9\\s]+";
-    NSPredicate *letterAndNumberTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", letterAndNumberRegEx];
-    
-    if ([letterAndNumberTest evaluateWithObject:address]) {
-        return YES;
+    if (!allErrors.length) {
+        return NO;
     }
-    
-    [self displayAlert:message];
-    return NO;
+    return YES;
 }
 
-// Validate a customer's e-mail address.
-- (BOOL)validateEmail:(NSString *)email withAlertMessage:(NSString *)message {
-    NSString *emailRegEx = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,10}";
-    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegEx];
+
+# pragma mark - Moving Content That Is Located Under the Keyboard.
+
+- (void)keyboardWasShown:(NSNotification *)aNotification {
+    NSDictionary* info = [aNotification userInfo];
+    CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
     
-    if ([emailTest evaluateWithObject:email]) {
-        return YES;
+    UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height, 0.0);
+    self.scrollView.contentInset = contentInsets;
+    self.scrollView.scrollIndicatorInsets = contentInsets;
+    
+    // If active text field is hidden by keyboard, scroll it so it's visible.
+    CGRect aRect = self.view.frame;
+    aRect.size.height -= kbSize.height;
+    if (!CGRectContainsPoint(aRect, self.activeTextField.frame.origin) ) {
+        [self.scrollView scrollRectToVisible:self.activeTextField.frame animated:YES];
     }
-    
-    [self displayAlert:message];
-    return NO;
 }
 
-// Validate a customer's phone number.
-- (BOOL)validatePhoneNumber:(NSString *)phone withAlertMessage:(NSString *)message {
-    // Regular expression for international phone numbers is used below.
-    // source: http://blog.stevenlevithan.com/archives/validate-phone-Numberber#r4-3
-    NSString *phoneRegEx = @"^\\+(?:[0-9] ?){6,14}[0-9]$";
-    NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", phoneRegEx];
-    
-    if ([phoneTest evaluateWithObject:phone]) {
-        return YES;
-    }
-    
-    [self displayAlert:message];
-    return NO;
+// Called when the UIKeyboardWillHideNotification is sent.
+- (void)keyboardWillBeHidden:(NSNotification *)aNotification {
+    UIEdgeInsets contentInsets = UIEdgeInsetsZero;
+    self.scrollView.contentInset = contentInsets;
+    self.scrollView.scrollIndicatorInsets = contentInsets;
 }
 
-// Validate a product's code, cardinality or price using a numeric value.
-- (BOOL)validateNumEntry:(NSString *)number withAlertMessage:(NSString *)message {
-    NSString *numRegEx = @"^[0-9]*$";
-    NSPredicate *numTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", numRegEx];
+- (void)registerForKeyboardNotifications {
+    // Register for keyboard notifications.
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWasShown:) name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardDidHideNotification object:nil];
     
-    if ([numTest evaluateWithObject:number]) {
-        return YES;
-    }
-
-    [self displayAlert:message];
-    return NO;
 }
 
-// Display an alert.
-- (void)displayAlert:(NSString *)message {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Alert" message:message preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                          handler:^(UIAlertAction * action) {}];
+- (void)unregisterForKeyboardNotifications {
+    // Unregister for keyboard notifications.
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidHideNotification object:nil];
     
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
 }
-
 
 @end

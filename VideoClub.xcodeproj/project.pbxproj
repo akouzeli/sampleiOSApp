@@ -27,14 +27,13 @@
 		A86F097D1C63AC37000E4BDC /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F097C1C63AC37000E4BDC /* ProductsViewController.m */; };
 		A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8949A361C5E292100141235 /* EditCustomerViewController.m */; };
 		A896A8CA1C6A716F00D5CAF8 /* ProductsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */; };
+		A8984CE11C887EA80092A587 /* exclamation_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = A8984CE01C887EA80092A587 /* exclamation_mark.png */; };
 		A8C0FDBB1C5F968000CB7C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */; };
 		A8C0FDBE1C5FCD5900CB7C72 /* CustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */; };
 		A8F98AC01C54260800D715C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98ABF1C54260800D715C3 /* main.m */; };
 		A8F98AC31C54260800D715C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AC21C54260800D715C3 /* AppDelegate.m */; };
 		A8F98ACB1C54260900D715C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F98ACA1C54260900D715C3 /* Assets.xcassets */; };
 		A8F98ACE1C54260900D715C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F98ACC1C54260900D715C3 /* LaunchScreen.storyboard */; };
-		A8F98AD91C54260900D715C3 /* VideoClub.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AD81C54260900D715C3 /* VideoClub.m */; };
-		A8F98AE41C54260900D715C3 /* VideoClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AE31C54260900D715C3 /* VideoClubUITests.m */; };
 		A8F98AF31C54300200D715C3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98AF21C54300200D715C3 /* Person.m */; };
 		A8F9DD261C64FEC90075C299 /* AddProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9DD251C64FEC90075C299 /* AddProductViewController.m */; };
 /* End PBXBuildFile section */
@@ -83,6 +82,7 @@
 		A829A9811C5558E3004DABBB /* Selling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selling.m; sourceTree = "<group>"; };
 		A82E22C51C74BAA900280C62 /* EditProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductViewController.h; sourceTree = "<group>"; };
 		A82E22C61C74BAA900280C62 /* EditProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductViewController.m; sourceTree = "<group>"; };
+		A851C1711C8225AB00FE7855 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
 		A85312871C5D26E5007C6DBD /* AddCustomerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
 		A853128A1C5D2A55007C6DBD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BaseViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A853128B1C5D2A55007C6DBD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -92,26 +92,23 @@
 		A86F09791C63AB2B000E4BDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A86F097B1C63AC37000E4BDC /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
 		A86F097C1C63AC37000E4BDC /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		A8742F6D1C8586C7001633F9 /* VideoClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8742F6E1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8742F6F1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8949A351C5E292100141235 /* EditCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditCustomerViewController.h; path = ../EditCustomerViewController.h; sourceTree = "<group>"; };
 		A8949A361C5E292100141235 /* EditCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditCustomerViewController.m; path = ../EditCustomerViewController.m; sourceTree = "<group>"; };
 		A896A8C81C6A716F00D5CAF8 /* ProductsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsMainViewController.h; sourceTree = "<group>"; };
 		A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsMainViewController.m; sourceTree = "<group>"; };
+		A8984CE01C887EA80092A587 /* exclamation_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_mark.png; sourceTree = "<group>"; };
 		A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A8C0FDBC1C5FCD4D00CB7C72 /* CustomersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomersViewController.h; sourceTree = "<group>"; };
 		A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersViewController.m; sourceTree = "<group>"; };
-		A8F98ABB1C54260800D715C3 /* VideoClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F98ABF1C54260800D715C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8F98AC11C54260800D715C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F98AC21C54260800D715C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A8F98ACA1C54260900D715C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F98ACD1C54260900D715C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8F98ACF1C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8F98AD41C54260900D715C3 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8F98AD81C54260900D715C3 /* VideoClub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoClub.m; sourceTree = "<group>"; };
-		A8F98ADA1C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8F98ADF1C54260900D715C3 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8F98AE31C54260900D715C3 /* VideoClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoClubUITests.m; sourceTree = "<group>"; };
-		A8F98AE51C54260900D715C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F98AF11C54300200D715C3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A8F98AF21C54300200D715C3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		A8F9DD241C64FEC90075C299 /* AddProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProductViewController.h; sourceTree = "<group>"; };
@@ -155,6 +152,7 @@
 				A829A9711C554A4A004DABBB /* Product.m */,
 				A829A9731C554E15004DABBB /* Entity.h */,
 				A829A9741C554E15004DABBB /* Entity.m */,
+				A851C1711C8225AB00FE7855 /* Protocols.h */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -228,20 +226,10 @@
 			isa = PBXGroup;
 			children = (
 				A8F98ABD1C54260800D715C3 /* VideoClub */,
-				A8F98AD71C54260900D715C3 /* VideoClubTests */,
-				A8F98AE21C54260900D715C3 /* VideoClubUITests */,
-				A8F98ABC1C54260800D715C3 /* Products */,
+				A8742F6D1C8586C7001633F9 /* VideoClub.app */,
+				A8742F6E1C8586C7001633F9 /* VideoClub.xctest */,
+				A8742F6F1C8586C7001633F9 /* VideoClub.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		A8F98ABC1C54260800D715C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A8F98ABB1C54260800D715C3 /* VideoClub.app */,
-				A8F98AD41C54260900D715C3 /* VideoClub.xctest */,
-				A8F98ADF1C54260900D715C3 /* VideoClub.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A8F98ABD1C54260800D715C3 /* VideoClub */ = {
@@ -265,29 +253,10 @@
 		A8F98ABE1C54260800D715C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8984CE01C887EA80092A587 /* exclamation_mark.png */,
 				A8F98ABF1C54260800D715C3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A8F98AD71C54260900D715C3 /* VideoClubTests */ = {
-			isa = PBXGroup;
-			children = (
-				A8F98AD81C54260900D715C3 /* VideoClub.m */,
-				A8F98ADA1C54260900D715C3 /* Info.plist */,
-			);
-			name = VideoClubTests;
-			path = OnceMoreTests;
-			sourceTree = "<group>";
-		};
-		A8F98AE21C54260900D715C3 /* VideoClubUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A8F98AE31C54260900D715C3 /* VideoClubUITests.m */,
-				A8F98AE51C54260900D715C3 /* Info.plist */,
-			);
-			name = VideoClubUITests;
-			path = OnceMoreUITests;
 			sourceTree = "<group>";
 		};
 		A8F98AF51C54304200D715C3 /* Models */ = {
@@ -333,7 +302,7 @@
 			);
 			name = VideoClub;
 			productName = OnceMore;
-			productReference = A8F98ABB1C54260800D715C3 /* VideoClub.app */;
+			productReference = A8742F6D1C8586C7001633F9 /* VideoClub.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A8F98AD31C54260900D715C3 /* VideoClubTests */ = {
@@ -351,7 +320,7 @@
 			);
 			name = VideoClubTests;
 			productName = OnceMoreTests;
-			productReference = A8F98AD41C54260900D715C3 /* VideoClub.xctest */;
+			productReference = A8742F6E1C8586C7001633F9 /* VideoClub.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A8F98ADE1C54260900D715C3 /* VideoClubUITests */ = {
@@ -369,7 +338,7 @@
 			);
 			name = VideoClubUITests;
 			productName = OnceMoreUITests;
-			productReference = A8F98ADF1C54260900D715C3 /* VideoClub.xctest */;
+			productReference = A8742F6F1C8586C7001633F9 /* VideoClub.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -404,7 +373,7 @@
 				Base,
 			);
 			mainGroup = A8F98AB21C54260800D715C3;
-			productRefGroup = A8F98ABC1C54260800D715C3 /* Products */;
+			productRefGroup = A8F98AB21C54260800D715C3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -422,6 +391,7 @@
 			files = (
 				A8C0FDBB1C5F968000CB7C72 /* Main.storyboard in Resources */,
 				A8F98ACE1C54260900D715C3 /* LaunchScreen.storyboard in Resources */,
+				A8984CE11C887EA80092A587 /* exclamation_mark.png in Resources */,
 				A8F98ACB1C54260900D715C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +449,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F98AD91C54260900D715C3 /* VideoClub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F98AE41C54260900D715C3 /* VideoClubUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

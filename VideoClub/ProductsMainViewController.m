@@ -21,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.menu = @[@"Products", @"Products for Sale", @"Products for Rent"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,12 +34,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Choose which products to display, based on the selected menu option.
     ProductsViewController *viewProducts = segue.destinationViewController;
-    NSRange rangeOfMenuOptions = [self.selectedMenuOption rangeOfString:@"Products for"];
-    if (rangeOfMenuOptions.location == NSNotFound) {
-        viewProducts.availableFor = nil;
-    } else {
-        viewProducts.availableFor = [self.selectedMenuOption substringFromIndex:13];
-    }
+    // Create a new array similar to the self.menu with the keywords "Sale" and "Rent".
+    NSArray *productsFor = @[@"All", @"Sale", @"Rent"];
+    viewProducts.indexPath = self.selectedIndexPath;
+    viewProducts.availableFor = productsFor[self.selectedIndexPath.row];
 }
 
 
@@ -61,7 +60,8 @@
 
 - (NSIndexPath *)tableView: (UITableView *)tableView willSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     self.selectedMenuOption = self.menu[indexPath.row];
-    return indexPath;
+    self.selectedIndexPath = indexPath;
+    return self.selectedIndexPath;
 }
 
 

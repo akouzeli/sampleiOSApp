@@ -16,7 +16,7 @@
         self.numberOfLines = 0;
         
         UIFont *custom = [[UIFont alloc] init];
-        custom = [UIFont fontWithName:@"Helvetica-Bold" size:14];
+        custom = [UIFont fontWithName:@"Helvetica-Bold" size:12];
         self.font = custom;
     }
     return self;

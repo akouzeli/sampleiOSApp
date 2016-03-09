@@ -21,8 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    self.productsTable.dataSource = self;
-//    self.productsTable.delegate = self;
    
 }
 
@@ -31,21 +29,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    
-
-
-}
-
 
 #pragma mark - Table View Methods
 
 // Return the number of rows in a particular section.
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSInteger count = 0;
-    if (self.availableFor) {
-        // Return the number of products available for Rent or Sale, based on the user's choice.
+    if (self.indexPath.row != 0) {
+        // Return the number of products available for "Rent" or "Sale".
         NSArray *subsetOfProducts = [self.resourceDb products:self.resourceDb.products for:self.availableFor];
         count = subsetOfProducts.count;
     } else {
@@ -60,10 +51,9 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"productCell"];
     }
-    
     Product *p = [[Product alloc] init];
     // Display products based on the user's choice.
-    if (self.availableFor) {
+    if (self.indexPath.row != 0) {
         NSArray *subsetOfProducts = [self.resourceDb products:self.resourceDb.products for:self.availableFor];
         p = subsetOfProducts[indexPath.row];
     } else {
@@ -74,7 +64,7 @@
 }
 
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (self.availableFor) {
+    if (self.indexPath.row != 0) {
         NSArray *subsetOfProducts = [self.resourceDb products:self.resourceDb.products for:self.availableFor];
         self.selectedProduct = subsetOfProducts[indexPath.row];
     } else {
@@ -84,13 +74,13 @@
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return YES if you want the specified item to be editable.
+    // Return YES, since we want the specified item to be editable.
     return YES;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        if (self.availableFor) {
+        if (self.indexPath.row != 0) {
             NSArray *subsetOfProducts = [self.resourceDb products:self.resourceDb.products for:self.availableFor];
             self.selectedProduct = subsetOfProducts[indexPath.row];
         } else {

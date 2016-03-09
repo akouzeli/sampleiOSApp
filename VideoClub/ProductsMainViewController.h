@@ -11,5 +11,7 @@
 @interface ProductsMainViewController : BaseViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSArray *menu;
+@property (strong, nonatomic) NSIndexPath *selectedIndexPath;
+
 
 @end

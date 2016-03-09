@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface AddCustomerViewController : ViewController<UITextFieldDelegate>
+@interface AddCustomerViewController : ViewController
 
 @property (strong, nonatomic) Customer *customer;
 
@@ -18,7 +18,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *textFieldPhoneNum;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldEmail;
 
-@property (strong, nonatomic) UIViewController *vc;
+@property (strong, nonatomic) IBOutletCollection(CustomTextField) NSArray *textFields;
 
+
+@property (retain, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

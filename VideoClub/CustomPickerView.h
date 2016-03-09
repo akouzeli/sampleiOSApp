@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomPickerView : UIPickerView <UIPickerViewDelegate, UIPickerViewDataSource>
-+ (NSArray *)productTypes;
 
-@property (strong, nonatomic) NSArray *availableProductTypes;
+@property (strong, nonatomic) NSArray *availbleOptions;
 
 
 @end

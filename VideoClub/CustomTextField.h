@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Protocols.h"
 
-@interface CustomTextField : UITextField
+@interface CustomTextField : UITextField <ValidationProtocol, UITextFieldDelegate>
+
+@property(nonatomic, strong, readonly) NSString *regex;
+@property(nonatomic, strong, readonly) NSString *errorMessage;
+
 
 @end

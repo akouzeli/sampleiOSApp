@@ -10,34 +10,20 @@
 
 @implementation CustomPickerView
 
-//- (void)setUp {
-//  //  super.d
-////    super.dataSource = self;
-////    super.delegate = self;
+- (void)setUp {
+    self.dataSource = self;
+    self.delegate = self;
 
-//}
+}
 
-//- (instancetype)initWithFrame:(CGRect)frame {
-//    self = [super initWithFrame:<#frame#>];
-////    if ((self = [super initWithFrame:frame])) {
-////        [self setUp];
-////    }
-//    return self;
-//}
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self setUp];
+    }
+    return self;
+}
 
-//- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-//    self = [super initWithCoder:<#aDecoder#>];
-//    if ((self) {
-//        [self setUp];
-//    }
-//    return self;
-//}
-
-//+ (NSArray *)productTypes {
-//    NSArray *availableProductTypes = [[NSArray alloc] initWithObjects:@"Rent", @"Sale", nil];
-//    return availableProductTypes;
-//
-//}
 # pragma mark - Picker View
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
@@ -46,11 +32,11 @@
 
 // Returns the number of rows.
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    return self.availableProductTypes.count;
+    return self.availbleOptions.count;
 }
 
 - (nullable NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    return self.availableProductTypes[row];
+    return self.availbleOptions[row];
 }
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view {
@@ -62,17 +48,9 @@
             typeLabel.numberOfLines=1;
         }
     // Fill the label text here.
-    typeLabel.text = [self.availableProductTypes objectAtIndex:row];
+    typeLabel.text = [self.availbleOptions objectAtIndex:row];
     return typeLabel;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 
 

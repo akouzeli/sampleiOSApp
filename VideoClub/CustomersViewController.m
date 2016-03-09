@@ -55,7 +55,7 @@
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return YES if you want the specified item to be editable.
+    // Return YES, since we want the specified item to be editable.
     return YES;
 }
 

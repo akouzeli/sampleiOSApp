@@ -8,19 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "DbContent.h"
+#import "CustomTextField.h"
 
 @interface BaseViewController : UIViewController
 
-@property (nonatomic, strong, readonly) DbContent *resourceDb;
+@property (strong, nonatomic, readonly) DbContent *resourceDb;
+@property (strong, nonatomic) UIScrollView *scrollView;
+@property (strong, nonatomic) UITextField *activeTextField;
 
-// Methods for validating a customer's properties.
-- (BOOL)validateNameOrSurname:(NSString *)nameOrSurname withAlertMessage:(NSString *)message;
-- (BOOL)validateAddress:(NSString *)address withAlertMessage:(NSString *)message;
-- (BOOL)validateEmail:(NSString *)email withAlertMessage:(NSString *)message;
-- (BOOL)validatePhoneNumber:(NSString *)phone withAlertMessage:(NSString *)message;
+- (BOOL)errorMessagesForFields:(NSArray *)allFields;
 
-// Methods for validating a product's properties.
-- (BOOL)validateNumEntry:(NSString *)number withAlertMessage:(NSString *)message;
-
-- (void)displayAlert:(NSString *)message;
+- (void)registerForKeyboardNotifications;
+- (void)unregisterForKeyboardNotifications;
 @end

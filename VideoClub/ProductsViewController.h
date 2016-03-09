@@ -12,5 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *productsTable;
 @property (strong, nonatomic) NSString *availableFor;
+@property (strong, nonatomic) NSIndexPath *indexPath;
+
 
 @end
