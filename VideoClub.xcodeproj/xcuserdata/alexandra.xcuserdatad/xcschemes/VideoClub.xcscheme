@@ -47,6 +47,14 @@
                BlueprintName = "VideoClubUITests"
                ReferencedContainer = "container:VideoClub.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Customers/testCustomers">
+               </Test>
+               <Test
+                  Identifier = "Products/testAddProductForSale">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

@@ -11,8 +11,8 @@
 
 @interface CustomTextField : UITextField <ValidationProtocol, UITextFieldDelegate>
 
-@property(nonatomic, strong, readonly) NSString *regex;
-@property(nonatomic, strong, readonly) NSString *errorMessage;
+@property(nonatomic, strong) NSString *regex;
+@property(nonatomic, strong) NSString *errorMessage;
 
 
 @end

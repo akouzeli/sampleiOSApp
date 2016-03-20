@@ -10,6 +10,7 @@
 		A80398541C8012A000E4AD07 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398531C8012A000E4AD07 /* CustomTextField.m */; };
 		A80398571C801FEE00E4AD07 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398561C801FEE00E4AD07 /* CustomTableViewCell.m */; };
 		A803985A1C8026B900E4AD07 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A80398591C8026B900E4AD07 /* CustomPickerView.m */; };
+		A81870B41C9EB54900796CB3 /* ProductsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A81870B31C9EB54900796CB3 /* ProductsTests.m */; };
 		A82915771C5911FF005D4723 /* DbContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A82915761C5911FF005D4723 /* DbContent.m */; };
 		A82915801C59311D005D4723 /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A829157F1C59311D005D4723 /* AddCustomerViewController.m */; };
 		A829A96C1C554957004DABBB /* ConsumableProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A96B1C554957004DABBB /* ConsumableProduct.m */; };
@@ -23,8 +24,11 @@
 		A82E22C71C74BAA900280C62 /* EditProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82E22C61C74BAA900280C62 /* EditProductViewController.m */; };
 		A853128C1C5D2A55007C6DBD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128B1C5D2A55007C6DBD /* BaseViewController.m */; };
 		A85312901C5D3B30007C6DBD /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128F1C5D3B30007C6DBD /* CustomLabel.m */; };
+		A85E26DB1C955D7400F6BFE0 /* CustomersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */; };
+		A860ED401C96E060007D0589 /* Customers.m in Sources */ = {isa = PBXBuildFile; fileRef = A860ED3F1C96E060007D0589 /* Customers.m */; };
 		A86F097A1C63AB2B000E4BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F09791C63AB2B000E4BDC /* ViewController.m */; };
 		A86F097D1C63AC37000E4BDC /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F097C1C63AC37000E4BDC /* ProductsViewController.m */; };
+		A88DFE2B1C9D906400139E72 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DFE2A1C9D906400139E72 /* Products.m */; };
 		A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8949A361C5E292100141235 /* EditCustomerViewController.m */; };
 		A896A8CA1C6A716F00D5CAF8 /* ProductsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */; };
 		A8984CE11C887EA80092A587 /* exclamation_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = A8984CE01C887EA80092A587 /* exclamation_mark.png */; };
@@ -62,6 +66,7 @@
 		A80398561C801FEE00E4AD07 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		A80398581C8026B900E4AD07 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
 		A80398591C8026B900E4AD07 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
+		A81870B31C9EB54900796CB3 /* ProductsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductsTests.m; path = VideoClubTests/ProductsTests.m; sourceTree = "<group>"; };
 		A82915751C5911FF005D4723 /* DbContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbContent.h; sourceTree = "<group>"; };
 		A82915761C5911FF005D4723 /* DbContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbContent.m; sourceTree = "<group>"; };
 		A829157F1C59311D005D4723 /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddCustomerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -88,6 +93,10 @@
 		A853128B1C5D2A55007C6DBD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A853128E1C5D3B30007C6DBD /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
 		A853128F1C5D3B30007C6DBD /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersTests.m; sourceTree = "<group>"; };
+		A85E26E01C95635E00F6BFE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoClubTests/Info.plist; sourceTree = "<group>"; };
+		A85E26E21C95638800F6BFE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoClubUITests/Info.plist; sourceTree = "<group>"; };
+		A860ED3F1C96E060007D0589 /* Customers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customers.m; path = VideoClubUITests/Customers.m; sourceTree = "<group>"; };
 		A86F09781C63AB2B000E4BDC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A86F09791C63AB2B000E4BDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A86F097B1C63AC37000E4BDC /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
@@ -95,6 +104,7 @@
 		A8742F6D1C8586C7001633F9 /* VideoClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8742F6E1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8742F6F1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88DFE2A1C9D906400139E72 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
 		A8949A351C5E292100141235 /* EditCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditCustomerViewController.h; path = ../EditCustomerViewController.h; sourceTree = "<group>"; };
 		A8949A361C5E292100141235 /* EditCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditCustomerViewController.m; path = ../EditCustomerViewController.m; sourceTree = "<group>"; };
 		A896A8C81C6A716F00D5CAF8 /* ProductsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsMainViewController.h; sourceTree = "<group>"; };
@@ -194,6 +204,26 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		A85E26E61C95641700F6BFE0 /* VideoClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				A81870B31C9EB54900796CB3 /* ProductsTests.m */,
+				A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */,
+				A85E26E01C95635E00F6BFE0 /* Info.plist */,
+			);
+			name = VideoClubTests;
+			sourceTree = "<group>";
+		};
+		A85E26E71C95642E00F6BFE0 /* VideoClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A88DFE2A1C9D906400139E72 /* Products.m */,
+				A85E26E21C95638800F6BFE0 /* Info.plist */,
+				A860ED3F1C96E060007D0589 /* Customers.m */,
+			);
+			name = VideoClubUITests;
+			sourceTree = "<group>";
+		};
 		A8A619EC1C71C70A0022C2BB /* Customers */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +255,8 @@
 		A8F98AB21C54260800D715C3 = {
 			isa = PBXGroup;
 			children = (
+				A85E26E61C95641700F6BFE0 /* VideoClubTests */,
+				A85E26E71C95642E00F6BFE0 /* VideoClubUITests */,
 				A8F98ABD1C54260800D715C3 /* VideoClub */,
 				A8742F6D1C8586C7001633F9 /* VideoClub.app */,
 				A8742F6E1C8586C7001633F9 /* VideoClub.xctest */,
@@ -449,6 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85E26DB1C955D7400F6BFE0 /* CustomersTests.m in Sources */,
+				A81870B41C9EB54900796CB3 /* ProductsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A860ED401C96E060007D0589 /* Customers.m in Sources */,
+				A88DFE2B1C9D906400139E72 /* Products.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,9 +634,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OnceMoreTests/Info.plist;
+				INFOPLIST_FILE = VideoClubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClubTests;
 				PRODUCT_NAME = VideoClub;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoClub.app/VideoClub";
 			};
@@ -610,9 +646,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OnceMoreTests/Info.plist;
+				INFOPLIST_FILE = VideoClubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClubTests;
 				PRODUCT_NAME = VideoClub;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoClub.app/VideoClub";
 			};
@@ -621,11 +657,11 @@
 		A8F98AEF1C54260900D715C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = OnceMoreUITests/Info.plist;
+				INFOPLIST_FILE = VideoClubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClubUITests;
 				PRODUCT_NAME = VideoClub;
-				TEST_TARGET_NAME = OnceMore;
+				TEST_TARGET_NAME = VideoClub;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -633,11 +669,11 @@
 		A8F98AF01C54260900D715C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = OnceMoreUITests/Info.plist;
+				INFOPLIST_FILE = VideoClubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.OnceMoreUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = akouzeli.VideoClubUITests;
 				PRODUCT_NAME = VideoClub;
-				TEST_TARGET_NAME = OnceMore;
+				TEST_TARGET_NAME = VideoClub;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

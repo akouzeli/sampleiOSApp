@@ -38,6 +38,7 @@
         // Display an exclamation mark button in the invalid textfield,
         // that does nothing when pressed (at the moment...).
         UIButton* overlayButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        overlayButton.accessibilityIdentifier = @"exclamation";
         [overlayButton setImage:[UIImage imageNamed:@"exclamation_mark.png"] forState:UIControlStateNormal];
         // [overlayButton addTarget:self action:@selector(displayExplanatoryMessage:) forControlEvents:UIControlEventTouchUpInside];
         overlayButton.frame = CGRectMake(0, 0, 28, 28);
