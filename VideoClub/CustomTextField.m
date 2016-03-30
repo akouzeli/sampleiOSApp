@@ -28,6 +28,7 @@
     return self;
 }
 
+
 // Check if the content of a textfield is valid, based on the associated regex.
 - (BOOL)isValid {
     NSPredicate *validationPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", self.regex];
@@ -40,13 +41,12 @@
         UIButton* overlayButton = [UIButton buttonWithType:UIButtonTypeCustom];
         overlayButton.accessibilityIdentifier = @"exclamation";
         [overlayButton setImage:[UIImage imageNamed:@"exclamation_mark.png"] forState:UIControlStateNormal];
-        // [overlayButton addTarget:self action:@selector(displayExplanatoryMessage:) forControlEvents:UIControlEventTouchUpInside];
+        [overlayButton addTarget:self action:@selector(displayExplanatoryMessage:) forControlEvents:UIControlEventTouchUpInside];
         overlayButton.frame = CGRectMake(0, 0, 28, 28);
         
         // Place the exclamation mark on the right side of the textfield.
         self.rightView = overlayButton;
-        self.rightViewMode = UITextFieldViewModeAlways;
-        
+        self.rightViewMode = UITextFieldViewModeUnlessEditing;
         return NO;
     } else {
         // If the textfield's content is correct, revert its border's color.
@@ -57,6 +57,10 @@
     return YES;
 }
 
+
+- (NSString *)displayExplanatoryMessage: (UIButton *)sender {
+    return self.errorMessage;
+}
 
 
 @end

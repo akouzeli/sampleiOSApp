@@ -6,8 +6,8 @@
 //  Copyright © 2016 Alexandra Kouzeli. All rights reserved.
 //
 
-#import "Selling.h"
+#import "Sale.h"
 
-@implementation Selling
+@implementation Sale
 
 @end

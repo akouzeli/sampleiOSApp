@@ -1,5 +1,5 @@
 //
-//  Selling.h
+//  Rent.h
 //  VideoClub
 //
 //  Created by Alexandra Kouzeli on 24/01/16.
@@ -8,6 +8,9 @@
 
 #import "Transaction.h"
 
-@interface Selling : Transaction
+@interface Rental : Transaction
+
+@property (strong, nonatomic) NSDate *fromDate;
+@property(strong, nonatomic) NSDate *toDate;
 
 @end
