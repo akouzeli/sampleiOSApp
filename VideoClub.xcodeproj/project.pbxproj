@@ -18,20 +18,20 @@
 		A829A9721C554A4A004DABBB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9711C554A4A004DABBB /* Product.m */; };
 		A829A9751C554E15004DABBB /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9741C554E15004DABBB /* Entity.m */; };
 		A829A9791C5550D7004DABBB /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9781C5550D7004DABBB /* Customer.m */; };
-		A829A97C1C5555F1004DABBB /* Rent.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A97B1C5555F1004DABBB /* Rent.m */; };
 		A829A97F1C555861004DABBB /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A97E1C555861004DABBB /* Transaction.m */; };
-		A829A9821C5558E3004DABBB /* Selling.m in Sources */ = {isa = PBXBuildFile; fileRef = A829A9811C5558E3004DABBB /* Selling.m */; };
 		A82E22C71C74BAA900280C62 /* EditProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82E22C61C74BAA900280C62 /* EditProductViewController.m */; };
 		A853128C1C5D2A55007C6DBD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128B1C5D2A55007C6DBD /* BaseViewController.m */; };
 		A85312901C5D3B30007C6DBD /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A853128F1C5D3B30007C6DBD /* CustomLabel.m */; };
-		A85E26DB1C955D7400F6BFE0 /* CustomersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */; };
 		A860ED401C96E060007D0589 /* Customers.m in Sources */ = {isa = PBXBuildFile; fileRef = A860ED3F1C96E060007D0589 /* Customers.m */; };
 		A86F097A1C63AB2B000E4BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F09791C63AB2B000E4BDC /* ViewController.m */; };
 		A86F097D1C63AC37000E4BDC /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F097C1C63AC37000E4BDC /* ProductsViewController.m */; };
-		A88DFE2B1C9D906400139E72 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DFE2A1C9D906400139E72 /* Products.m */; };
-		A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8949A361C5E292100141235 /* EditCustomerViewController.m */; };
 		A896A8CA1C6A716F00D5CAF8 /* ProductsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */; };
 		A8984CE11C887EA80092A587 /* exclamation_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = A8984CE01C887EA80092A587 /* exclamation_mark.png */; };
+		A8A7AEB11CABB34700891C8A /* EditCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A7AEB01CABB34700891C8A /* EditCustomerViewController.m */; };
+		A8A7AEB61CABB3BE00891C8A /* Rental.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A7AEB31CABB3BE00891C8A /* Rental.m */; };
+		A8A7AEB71CABB3BE00891C8A /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A7AEB51CABB3BE00891C8A /* Sale.m */; };
+		A8A7AEB81CABB93C00891C8A /* CustomersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A7AEAB1CABB20B00891C8A /* CustomersTests.m */; };
+		A8A7AEB91CABB94700891C8A /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A7AEAD1CABB21900891C8A /* Products.m */; };
 		A8C0FDBB1C5F968000CB7C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */; };
 		A8C0FDBE1C5FCD5900CB7C72 /* CustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */; };
 		A8F98AC01C54260800D715C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F98ABF1C54260800D715C3 /* main.m */; };
@@ -79,12 +79,8 @@
 		A829A9741C554E15004DABBB /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 		A829A9771C5550D7004DABBB /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		A829A9781C5550D7004DABBB /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
-		A829A97A1C5555F1004DABBB /* Rent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rent.h; sourceTree = "<group>"; };
-		A829A97B1C5555F1004DABBB /* Rent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rent.m; sourceTree = "<group>"; };
 		A829A97D1C555861004DABBB /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
 		A829A97E1C555861004DABBB /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
-		A829A9801C5558E3004DABBB /* Selling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selling.h; sourceTree = "<group>"; };
-		A829A9811C5558E3004DABBB /* Selling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selling.m; sourceTree = "<group>"; };
 		A82E22C51C74BAA900280C62 /* EditProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductViewController.h; sourceTree = "<group>"; };
 		A82E22C61C74BAA900280C62 /* EditProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductViewController.m; sourceTree = "<group>"; };
 		A851C1711C8225AB00FE7855 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 		A853128B1C5D2A55007C6DBD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BaseViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A853128E1C5D3B30007C6DBD /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
 		A853128F1C5D3B30007C6DBD /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
-		A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersTests.m; sourceTree = "<group>"; };
 		A85E26E01C95635E00F6BFE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoClubTests/Info.plist; sourceTree = "<group>"; };
 		A85E26E21C95638800F6BFE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoClubUITests/Info.plist; sourceTree = "<group>"; };
 		A860ED3F1C96E060007D0589 /* Customers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customers.m; path = VideoClubUITests/Customers.m; sourceTree = "<group>"; };
@@ -104,12 +99,17 @@
 		A8742F6D1C8586C7001633F9 /* VideoClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8742F6E1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8742F6F1C8586C7001633F9 /* VideoClub.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoClub.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A88DFE2A1C9D906400139E72 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
-		A8949A351C5E292100141235 /* EditCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditCustomerViewController.h; path = ../EditCustomerViewController.h; sourceTree = "<group>"; };
-		A8949A361C5E292100141235 /* EditCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditCustomerViewController.m; path = ../EditCustomerViewController.m; sourceTree = "<group>"; };
 		A896A8C81C6A716F00D5CAF8 /* ProductsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsMainViewController.h; sourceTree = "<group>"; };
 		A896A8C91C6A716F00D5CAF8 /* ProductsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsMainViewController.m; sourceTree = "<group>"; };
 		A8984CE01C887EA80092A587 /* exclamation_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_mark.png; sourceTree = "<group>"; };
+		A8A7AEAB1CABB20B00891C8A /* CustomersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomersTests.m; path = VideoClubTests/CustomersTests.m; sourceTree = "<group>"; };
+		A8A7AEAD1CABB21900891C8A /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Products.m; path = VideoClubUITests/Products.m; sourceTree = "<group>"; };
+		A8A7AEAF1CABB34700891C8A /* EditCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCustomerViewController.h; sourceTree = "<group>"; };
+		A8A7AEB01CABB34700891C8A /* EditCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCustomerViewController.m; sourceTree = "<group>"; };
+		A8A7AEB21CABB3BE00891C8A /* Rental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rental.h; sourceTree = "<group>"; };
+		A8A7AEB31CABB3BE00891C8A /* Rental.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rental.m; sourceTree = "<group>"; };
+		A8A7AEB41CABB3BE00891C8A /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		A8A7AEB51CABB3BE00891C8A /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
 		A8C0FDBA1C5F968000CB7C72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A8C0FDBC1C5FCD4D00CB7C72 /* CustomersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomersViewController.h; sourceTree = "<group>"; };
 		A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersViewController.m; sourceTree = "<group>"; };
@@ -174,7 +174,6 @@
 				A86F09781C63AB2B000E4BDC /* ViewController.h */,
 				A86F09791C63AB2B000E4BDC /* ViewController.m */,
 				A8A619EC1C71C70A0022C2BB /* Customers */,
-				A829A97A1C5555F1004DABBB /* Rent.h */,
 				A8C23DDF1C7900F200EC9A6D /* Products */,
 			);
 			name = Controllers;
@@ -207,8 +206,8 @@
 		A85E26E61C95641700F6BFE0 /* VideoClubTests */ = {
 			isa = PBXGroup;
 			children = (
+				A8A7AEAB1CABB20B00891C8A /* CustomersTests.m */,
 				A81870B31C9EB54900796CB3 /* ProductsTests.m */,
-				A85E26DA1C955D7400F6BFE0 /* CustomersTests.m */,
 				A85E26E01C95635E00F6BFE0 /* Info.plist */,
 			);
 			name = VideoClubTests;
@@ -217,7 +216,7 @@
 		A85E26E71C95642E00F6BFE0 /* VideoClubUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A88DFE2A1C9D906400139E72 /* Products.m */,
+				A8A7AEAD1CABB21900891C8A /* Products.m */,
 				A85E26E21C95638800F6BFE0 /* Info.plist */,
 				A860ED3F1C96E060007D0589 /* Customers.m */,
 			);
@@ -227,12 +226,12 @@
 		A8A619EC1C71C70A0022C2BB /* Customers */ = {
 			isa = PBXGroup;
 			children = (
+				A8A7AEAF1CABB34700891C8A /* EditCustomerViewController.h */,
+				A8A7AEB01CABB34700891C8A /* EditCustomerViewController.m */,
 				A8C0FDBC1C5FCD4D00CB7C72 /* CustomersViewController.h */,
 				A8C0FDBD1C5FCD5900CB7C72 /* CustomersViewController.m */,
 				A85312871C5D26E5007C6DBD /* AddCustomerViewController.h */,
 				A829157F1C59311D005D4723 /* AddCustomerViewController.m */,
-				A8949A351C5E292100141235 /* EditCustomerViewController.h */,
-				A8949A361C5E292100141235 /* EditCustomerViewController.m */,
 			);
 			name = Customers;
 			sourceTree = "<group>";
@@ -295,17 +294,18 @@
 			isa = PBXGroup;
 			children = (
 				A829A9761C554F65004DABBB /* Base */,
+				A8A7AEB21CABB3BE00891C8A /* Rental.h */,
+				A8A7AEB31CABB3BE00891C8A /* Rental.m */,
+				A8A7AEB41CABB3BE00891C8A /* Sale.h */,
+				A8A7AEB51CABB3BE00891C8A /* Sale.m */,
 				A829A96A1C554957004DABBB /* ConsumableProduct.h */,
 				A829A96B1C554957004DABBB /* ConsumableProduct.m */,
 				A829A96D1C554978004DABBB /* RentableProduct.h */,
 				A829A96E1C554978004DABBB /* RentableProduct.m */,
 				A829A9771C5550D7004DABBB /* Customer.h */,
 				A829A9781C5550D7004DABBB /* Customer.m */,
-				A829A97B1C5555F1004DABBB /* Rent.m */,
 				A829A97D1C555861004DABBB /* Transaction.h */,
 				A829A97E1C555861004DABBB /* Transaction.m */,
-				A829A9801C5558E3004DABBB /* Selling.h */,
-				A829A9811C5558E3004DABBB /* Selling.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -450,20 +450,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86F097A1C63AB2B000E4BDC /* ViewController.m in Sources */,
+				A8A7AEB11CABB34700891C8A /* EditCustomerViewController.m in Sources */,
 				A8C0FDBE1C5FCD5900CB7C72 /* CustomersViewController.m in Sources */,
 				A82E22C71C74BAA900280C62 /* EditProductViewController.m in Sources */,
-				A829A97C1C5555F1004DABBB /* Rent.m in Sources */,
 				A829A9751C554E15004DABBB /* Entity.m in Sources */,
+				A8A7AEB71CABB3BE00891C8A /* Sale.m in Sources */,
 				A803985A1C8026B900E4AD07 /* CustomPickerView.m in Sources */,
-				A829A9821C5558E3004DABBB /* Selling.m in Sources */,
 				A829A9791C5550D7004DABBB /* Customer.m in Sources */,
 				A82915771C5911FF005D4723 /* DbContent.m in Sources */,
 				A85312901C5D3B30007C6DBD /* CustomLabel.m in Sources */,
+				A8A7AEB61CABB3BE00891C8A /* Rental.m in Sources */,
 				A829A9721C554A4A004DABBB /* Product.m in Sources */,
 				A8F98AC31C54260800D715C3 /* AppDelegate.m in Sources */,
 				A8F9DD261C64FEC90075C299 /* AddProductViewController.m in Sources */,
 				A80398541C8012A000E4AD07 /* CustomTextField.m in Sources */,
-				A8949A371C5E292100141235 /* EditCustomerViewController.m in Sources */,
 				A80398571C801FEE00E4AD07 /* CustomTableViewCell.m in Sources */,
 				A853128C1C5D2A55007C6DBD /* BaseViewController.m in Sources */,
 				A829A96F1C554978004DABBB /* RentableProduct.m in Sources */,
@@ -481,8 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85E26DB1C955D7400F6BFE0 /* CustomersTests.m in Sources */,
 				A81870B41C9EB54900796CB3 /* ProductsTests.m in Sources */,
+				A8A7AEB81CABB93C00891C8A /* CustomersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A860ED401C96E060007D0589 /* Customers.m in Sources */,
-				A88DFE2B1C9D906400139E72 /* Products.m in Sources */,
+				A8A7AEB91CABB94700891C8A /* Products.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
